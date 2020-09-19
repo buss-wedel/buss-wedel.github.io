@@ -4,12 +4,11 @@ title: News
 nav_order: 2
 ---
 
-# News index
+# News
 
-<ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date }}</p>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ post.url }}">more...</a></p>
   {% endfor %}
-</ul>
