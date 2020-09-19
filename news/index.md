@@ -5,3 +5,6 @@ nav_order: 2
 ---
 
 # News index
+
+
+{{ site.pages }}
