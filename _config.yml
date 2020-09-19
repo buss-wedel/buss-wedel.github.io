@@ -3,12 +3,12 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: false
 
-// collections:
-//  news:
-//    permalink: "/:collection/:path/"
-//    output: true
+# collections:
+#  news:
+#    permalink: "/:collection/:path/"
+#    output: true
     
-//just_the_docs:
-//  collections:
-//    news:
-//      name: News
+#just_the_docs:
+#  collections:
+#    news:
+#      name: News
