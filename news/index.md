@@ -7,8 +7,9 @@ nav_order: 2
 # News
 
   {% for post in site.posts %}
-    ## <a href="{{ post.url }}">{{ post.title }}</a>
-    
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
     {{ post.date }}
     
     {{ post.excerpt }}
