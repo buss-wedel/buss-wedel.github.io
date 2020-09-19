@@ -7,3 +7,4 @@ permalink: /
 ---
 
 # Work in progress 
+This will become a new home of all Buss-Wedel's project web pages.
