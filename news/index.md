@@ -1,6 +1,6 @@
 ---
 layout: default
-title: news
+title: News
 nav_order: 2
 ---
 
