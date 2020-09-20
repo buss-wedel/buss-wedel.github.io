@@ -9,7 +9,8 @@ nav_order: 2
 <p>
   {% for post in site.posts %}
     <p>
-      {{ post.date | date_to_string }} <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      {{ post.date | date_to_string }} 
     <p>
     <p>
       {{ post.excerpt }}
