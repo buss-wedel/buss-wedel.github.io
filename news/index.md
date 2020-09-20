@@ -12,12 +12,11 @@ nav_order: 2
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
     <p>
-      {{ post.date }}
+      {{ post.date | date_to_string }}
     </p>
     <p>
       {{ post.excerpt }}
-    
-    <a href="{{ post.url }}">more...</a>
+      <a href="{{ post.url }}">more...</a>
     </p>
   {% endfor %}
 </p>
