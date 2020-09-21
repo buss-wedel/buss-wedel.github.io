@@ -1,9 +1,8 @@
 ---
 title: "Erster Test"
+excerpt_separator: <!--more-->
 ---
-{{ page.url }}
-{{ post.url }}
-
-# Testinhalt
 
 hier kommt noch gesülze hin
+<!--more-->
+# Testinhalt
