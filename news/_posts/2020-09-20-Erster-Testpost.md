@@ -1,7 +1,7 @@
 ---
 title: "Erster Test"
 ---
-
 hier kommt noch gesülze hin
 
-{{ page.name }}
+{{ page.name }} pn
+{{ post.name }} on
