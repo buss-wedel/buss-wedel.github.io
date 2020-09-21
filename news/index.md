@@ -18,4 +18,4 @@ nav_order: 2
     </p>
   {% endfor %}
 </p>
-{{ page.name }}
+{{ page.title }}
