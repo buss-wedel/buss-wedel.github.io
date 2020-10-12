@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bwnewslist
 title: News
 nav_order: 2
 ---
@@ -18,4 +18,4 @@ nav_order: 2
     </p>
   {% endfor %}
 </p>
-{{ page.title }}
+----
