@@ -10,5 +10,3 @@ This will become a new home of all Buss-Wedel's project web pages.
 # Welcome to Buss-Wedel.github.io 
 
 The web site for Buss-Wedel's projects
-
-## Recent information
