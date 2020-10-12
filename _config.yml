@@ -1,7 +1,18 @@
-title: "Buss-Wedel"
+# site information
+title: Buss-Wedel
+email: buss-wedel@programmer.net
+github_username: buss-wedel
+
+# theme information
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
+color_scheme: dark
+
+# search feature configuration
 search_enabled: false
+
+# plugin information
+plugins:
+  - jekyll-feed
 
 # collections:
 #  news:
