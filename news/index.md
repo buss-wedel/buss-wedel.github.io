@@ -1,7 +1,7 @@
 ---
 layout: bwnewslist
-title: News
+title: Archive
 nav_order: 2
 ---
 
-# News
+# Archive
