@@ -2,9 +2,11 @@
 layout: default
 ---
 {{ content }}
-  {% for post in site.categories.news %}
+{% for cat in site.categories %}
+  <h3>{{ cat[0] | capitalize }}</h3>
+  {% for post in cat[1] %}
     <p>
-      {{ post.date | date_to_string }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.categories[0] | capitalize }} 
+      {{ post.date | date_to_string }}&nbsp;<a href="{{ post.url }}">{{ post.title }}</a> 
     </p>
   {% endfor %}
-
+{% endfor %}
