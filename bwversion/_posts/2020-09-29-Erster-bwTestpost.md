@@ -8,3 +8,5 @@ hier kommt noch gesülze hin
 {{ post.title }} on
 
 bw
+
+{{ page.dir }}

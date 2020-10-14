@@ -6,3 +6,5 @@ title: "BwVersion"
 A tool to for semantic versioning in C++ projects
 
 _Further Details coming soon_
+
+{{ page.dir }}
