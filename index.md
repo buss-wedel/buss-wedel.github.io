@@ -3,7 +3,6 @@ layout: bwhome
 title: Home
 nav_order: 1
 ---
-
 # Work in progress 
 This will become a new home of all Buss-Wedel's project web pages.
 
