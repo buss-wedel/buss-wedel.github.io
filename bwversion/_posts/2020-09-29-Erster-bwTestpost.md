@@ -9,4 +9,4 @@ hier kommt noch gesülze hin
 
 bw
 
-{{ page.dir }}
+{{ post.dir }}
