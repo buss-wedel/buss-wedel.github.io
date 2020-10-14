@@ -8,4 +8,4 @@ hier kommt noch gesülze hin<br>
 {{ post.title }} on<br>
 
 bw<br>
-{{ page.dir }}
+{{ page.categories }}
