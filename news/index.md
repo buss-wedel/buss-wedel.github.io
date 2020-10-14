@@ -1,5 +1,5 @@
 ---
-layout: bwnewslist
+layout: bwarchive
 title: Archive
 nav_order: 2
 ---
