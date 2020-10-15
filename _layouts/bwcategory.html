@@ -3,8 +3,8 @@ layout: default
 ---
 {{ content }}
 <hr>
-{{ page.categories }}<br>
-{{ page.dir }}
+{{ page.categories }} # <br>
+{{ page.dir | remove: "/"}}
 <hr>
   {% for post in site.posts %}
     <p>
