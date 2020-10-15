@@ -2,16 +2,14 @@
 layout: default
 ---
 {{ content }}
-<hr>
-{% assign cat = page.dir | remove: "/" %}
-{% assign currentcats = site.posts | where: "categories", cat %}
-<hr>
-  {% for post in currentcats[1] %}
-    <p>
-      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-      {{ post.date | date_to_string }}<br />
-      {{ post.excerpt  | split: "<p>" | last }}
-      <a href="{{ post.url }}">more...</a>
-    </p>
-  {% endfor %}
 
+{% assign cat = page.dir | remove: "/" %}
+
+{% for post in site.categories[cat] %}
+    <div style="margin-bottom: 1.5em;">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.date | date_to_string }}<br />
+        {{ post.excerpt  | split: "<p>" | last | remove: "<p>" | remove: "</p>" }}
+        <a href="{{ post.url }}">more...</a>
+    </div>
+{% endfor %}
