@@ -4,11 +4,31 @@ email: buss-wedel@programmer.net
 github_username: buss-wedel
 
 # theme information
+# change commentation before push to github
+# online
 remote_theme: pmarsceill/just-the-docs
-color_scheme: dark
+# offline
+#theme: just-the-docs
+
+# may be deprecated but somehow strange
+footer_content: "Copyright &copy; 2020 Buss-Wedel"
+
+# Footer last edited timestamp
+# show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_timestamp: true 
+
+# uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%b %e %Y at %I:%M %p" 
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
 
 # search feature configuration
 search_enabled: false
+
+# Use darkcolor scheme instead of light default scheme
+color_scheme: dark
 
 # plugin information
 plugins:
