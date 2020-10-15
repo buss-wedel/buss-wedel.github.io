@@ -4,8 +4,9 @@ layout: default
 {{ content }}
 <hr>
 {% assign cat = page.dir | remove: "/" %}
+{% assign currentcats = site.posts | where: "categories", cat %}
 <hr>
-  {% for post in site.categories.cat %}
+  {% for post in currentcats[1] %}
     <p>
       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
       {{ post.date | date_to_string }}<br />
